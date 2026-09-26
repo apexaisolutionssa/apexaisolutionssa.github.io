@@ -126,6 +126,9 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:#8fa5c4;font-size:1
   .brand span{font-size:15px}
   .brand img{width:44px;height:44px}
 }
+
+.demo-open{margin-top:8px;width:100%}.demo-secondary{margin-top:10px;width:100%}
+.modal{display:none;position:fixed;inset:0;z-index:100;background:rgba(2,8,24,.82);backdrop-filter:blur(10px);padding:20px;overflow:auto}.modal.show{display:flex;align-items:center;justify-content:center}.modal-box{width:min(760px,100%);max-height:90vh;overflow:auto;background:#091a3b;border:1px solid rgba(101,220,255,.25);border-radius:24px;box-shadow:0 30px 100px rgba(0,0,0,.55);padding:28px;position:relative}.close{position:absolute;right:18px;top:14px;background:rgba(255,255,255,.08);border:0;color:white;width:38px;height:38px;border-radius:50%;font-size:22px;cursor:pointer}.demo-form{display:grid;gap:12px;margin-top:18px}.demo-form input,.demo-form select{width:100%;padding:13px;border-radius:10px;border:1px solid rgba(255,255,255,.14);background:#06142e;color:white}.result{margin-top:16px;padding:16px;border-radius:14px;background:rgba(8,124,255,.12);border:1px solid rgba(101,220,255,.2)}.chat{height:320px;overflow:auto;background:#06142e;border:1px solid var(--line);border-radius:16px;padding:14px;margin-top:18px}.msg{padding:10px 12px;border-radius:12px;margin:8px 0;max-width:82%;font-size:13px}.bot{background:rgba(8,124,255,.18)}.user{background:rgba(255,255,255,.08);margin-left:auto}.chat-row{display:flex;gap:8px;margin-top:10px}.chat-row input{flex:1;padding:12px;border-radius:10px;border:1px solid var(--line);background:#06142e;color:white}.timeline{display:grid;gap:10px;margin-top:18px}.event{padding:14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.04)}
 </style>
 </head>
 <body>
@@ -192,19 +195,19 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:#8fa5c4;font-size:1
         <div class="icon">🎯</div><h3>Lead Qualifier</h3>
         <p>Score and prioritise property enquiries based on buying intent, budget and readiness.</p>
         <ul><li>Lead scoring</li><li>Hot / Warm / Cold routing</li><li>Agent-ready summary</li></ul>
-        <a class="btn btn-primary" href="#contact">Request This System</a>
+        <button class="btn btn-primary demo-open" onclick="openDemo(1)">Launch Demo →</button><a class="btn btn-ghost demo-secondary" href="#contact">Request This System</a>
       </div>
       <div class="card demo">
         <div class="icon">🤖</div><h3>Property AI Chatbot</h3>
         <p>Answer common questions, present property information and collect lead details 24/7.</p>
         <ul><li>Property search</li><li>Instant answers</li><li>Lead capture & handoff</li></ul>
-        <a class="btn btn-primary" href="#contact">Request This System</a>
+        <button class="btn btn-primary demo-open" onclick="openDemo(2)">Launch Demo →</button><a class="btn btn-ghost demo-secondary" href="#contact">Request This System</a>
       </div>
       <div class="card demo">
         <div class="icon">📈</div><h3>Missed Lead Follow-Up</h3>
         <p>Trigger structured follow-ups so promising enquiries do not disappear after the first contact.</p>
         <ul><li>Timed follow-ups</li><li>Reply detection</li><li>Stop conditions</li></ul>
-        <a class="btn btn-primary" href="#contact">Request This System</a>
+        <button class="btn btn-primary demo-open" onclick="openDemo(3)">Launch Demo →</button><a class="btn btn-ghost demo-secondary" href="#contact">Request This System</a>
       </div>
     </div>
   </div>
@@ -231,12 +234,12 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:#8fa5c4;font-size:1
     <div class="section-head">
       <div class="kicker">Starting Packages</div>
       <h2>Choose a starting point.</h2>
-      <p>Indicative packages — final pricing depends on the workflow and integrations required.</p>
+      <p>International clients: USD pricing • South African clients: ZAR pricing. Final pricing depends on the workflow and integrations required.</p>
     </div>
     <div class="pricing">
-      <div class="card price"><h3>Starter</h3><strong>$49</strong><small> / starting</small><ul><li>✓ One simple automation</li><li>✓ Basic AI workflow</li><li>✓ Setup guidance</li></ul><a class="btn btn-ghost" href="#contact">Discuss</a></div>
-      <div class="card price" style="border-color:rgba(101,220,255,.45);"><h3>AI Lead System</h3><strong>$149</strong><small> / starting</small><ul><li>✓ Lead capture</li><li>✓ AI qualification</li><li>✓ Lead routing</li><li>✓ Follow-up workflow</li></ul><a class="btn btn-primary" href="#contact">Discuss</a></div>
-      <div class="card price"><h3>Full Automation</h3><strong>$299+</strong><small> / starting</small><ul><li>✓ Multi-step workflow</li><li>✓ AI + CRM integration</li><li>✓ Notifications</li><li>✓ Custom business logic</li></ul><a class="btn btn-ghost" href="#contact">Discuss</a></div>
+      <div class="card price"><h3>Starter Automation</h3><strong>$49</strong><small> | R799</small><ul><li>✓ One simple automation</li><li>✓ Basic AI workflow</li><li>✓ Setup guidance</li></ul><a class="btn btn-ghost" href="#contact">Discuss</a></div>
+      <div class="card price" style="border-color:rgba(101,220,255,.45);"><h3>AI Lead System</h3><strong>$149</strong><small> | R2,499</small><ul><li>✓ Lead capture</li><li>✓ AI qualification</li><li>✓ Lead routing</li><li>✓ Automated follow-up</li></ul><a class="btn btn-primary" href="#contact">Discuss</a></div>
+      <div class="card price"><h3>Full Automation</h3><strong>$299+</strong><small> | R4,999+</small><ul><li>✓ Multi-step workflow</li><li>✓ AI + CRM integration</li><li>✓ Notifications</li><li>✓ Custom business logic</li></ul><a class="btn btn-ghost" href="#contact">Discuss</a></div>
     </div>
   </div>
 </section>
@@ -253,11 +256,23 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:#8fa5c4;font-size:1
   </div>
 </section>
 
+
+<div id="demoModal" class="modal" onclick="if(event.target===this)closeDemo()"><div class="modal-box"><button class="close" onclick="closeDemo()">×</button><div id="demoContent"></div></div></div>
 <footer>
   <div class="container footer-inner">
     <div>© 2026 Apex AI Solutions. All rights reserved.</div>
     <div>Automate smarter. Respond faster. Grow stronger.</div>
   </div>
 </footer>
-</body>
+<script>
+const modal=document.getElementById('demoModal'), content=document.getElementById('demoContent');
+function openDemo(n){modal.classList.add('show'); if(n===1)leadDemo(); if(n===2)chatDemo(); if(n===3)followDemo();}
+function closeDemo(){modal.classList.remove('show');}
+function leadDemo(){content.innerHTML=`<div class="kicker">DEMO 01</div><h2>AI Real Estate Lead Qualifier</h2><p>Enter a sample enquiry and see how an automated system can prioritise the lead.</p><div class="demo-form"><input id="ln" placeholder="Full name"><input id="lb" type="number" placeholder="Budget (R)"><select id="lt"><option value="3">Buying within 3 months</option><option value="2">Buying in 3–6 months</option><option value="1">Just researching</option></select><select id="lf"><option value="3">Finance pre-approved</option><option value="2">Finance being arranged</option><option value="1">Cash / not confirmed</option></select><button class="btn btn-primary" onclick="scoreLead()">Qualify Lead</button></div><div id="leadResult"></div>`}
+function scoreLead(){let b=+document.getElementById('lb').value||0,t=+document.getElementById('lt').value,f=+document.getElementById('lf').value;let score=(b>=2000000?4:b>=1000000?3:b>0?2:0)+t+f;let tier=score>=9?'HOT':score>=6?'WARM':'COLD';let action=tier==='HOT'?'Call / WhatsApp immediately':tier==='WARM'?'Follow up within the day':'Add to nurture sequence';document.getElementById('leadResult').innerHTML=`<div class="result"><strong>${tier} LEAD • Score ${score}/10</strong><p>Recommended action: ${action}.</p></div>`}
+function chatDemo(){content.innerHTML=`<div class="kicker">DEMO 02</div><h2>AI Property Website Chatbot</h2><p>Ask the demo assistant about fictional properties. It will guide the visitor and capture intent.</p><div id="chat" class="chat"><div class="msg bot">Hi! 👋 I’m the Apex Estates AI assistant. Ask me about Fourways, Midrand, Bryanston or Rosebank properties.</div></div><div class="chat-row"><input id="ci" placeholder="e.g. Show me 3-bedroom homes under R3m"><button class="btn btn-primary" onclick="chatSend()">Send</button></div>`}
+function chatSend(){let input=document.getElementById('ci'),q=input.value.trim();if(!q)return;let chat=document.getElementById('chat');chat.innerHTML+=`<div class="msg user">${q.replace(/[<>]/g,'')}</div>`;let l=q.toLowerCase(),r=l.includes('fourways')?'Fourways demo listing: 3-bedroom family home, R2,450,000.':l.includes('midrand')?'Midrand demo listing: 2-bedroom townhouse, R1,650,000.':l.includes('bryanston')?'Bryanston demo listing: 4-bedroom estate home, R4,950,000.':l.includes('rosebank')?'Rosebank demo listing: 1-bedroom apartment, R1,250,000.':'I can help with property area, bedrooms and budget. For a real deployment, I would connect this assistant to the agency’s live property database.';chat.innerHTML+=`<div class="msg bot">${r}</div>`;chat.scrollTop=chat.scrollHeight;input.value=''}
+function followDemo(){content.innerHTML=`<div class="kicker">DEMO 03</div><h2>Missed Lead Follow-Up Automation</h2><p>Simulate what happens after a new enquiry is missed.</p><div class="demo-form"><select id="fs"><option>Hot buyer</option><option>Warm buyer</option><option>Rental enquiry</option><option>Viewing request</option></select><button class="btn btn-primary" onclick="runFollow()">Run Automation</button></div><div id="followResult"></div>`}
+function runFollow(){let s=document.getElementById('fs').value;document.getElementById('followResult').innerHTML=`<div class="timeline"><div class="event"><strong>T+0 — Lead received</strong><br>${s} created in CRM and assigned.</div><div class="event"><strong>T+15 min — First follow-up</strong><br>Friendly automated WhatsApp/email message sent.</div><div class="event"><strong>T+24 hr — Second follow-up</strong><br>Helpful reminder sent if no reply.</div><div class="event"><strong>T+3 days — Final nurture</strong><br>Last check-in sent; automation stops when the lead replies, books or closes.</div></div>`}
+</script></body>
 </html>

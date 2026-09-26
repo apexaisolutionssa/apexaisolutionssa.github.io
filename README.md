@@ -1,19 +1,11 @@
-# Apex AI Solutions — Combined Portfolio Website
+# Apex AI Solutions — Marketable Website
 
-## Structure
-- `index.html` — main portfolio homepage
-- `demo1/index.html` — AI Real Estate Lead Qualifier
-- `demo2/index.html` — AI Real Estate Website Chatbot
-- `demo3/index.html` — Missed Lead Follow-Up Automation
+This is a single-file GitHub Pages version of the Apex AI Solutions website.
 
-## How to use
-Open `index.html` in a browser. The three demo cards link into the included demos.
+## Upload
+1. Rename nothing — keep the file as `index.html`.
+2. Upload `index.html` to the root of your GitHub Pages repository.
+3. Enable GitHub Pages from the `main` branch and `/ (root)`.
+4. Before publishing, replace `YOUR-EMAIL@example.com` inside `index.html` with your real business email.
 
-## Deployment
-This is a static website and can be hosted on most static web hosts. Upload the complete folder while preserving the `demo1`, `demo2` and `demo3` folders.
-
-## Contact form
-The portfolio form uses `mailto:` and opens the visitor's email client. For production, replace it with a real form endpoint or CRM/webhook.
-
-## Important
-The demos are fictional portfolio demonstrations. They do not send real messages or connect to a real CRM unless separately integrated.
+The Apex AI Solutions logo is embedded directly into the HTML, so no separate image upload is required.
