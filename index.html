@@ -3,151 +3,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Apex AI Solutions | Real Estate AI Automation</title>
-<meta name="description" content="Apex AI Solutions builds AI-powered lead capture, qualification, chatbots and automated follow-up systems for real estate businesses.">
+<title>Apex AI — Missed Lead Follow-Up Automation</title>
 <style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:#07101d;color:#edf4ff;line-height:1.55}
-a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 24px}
-nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #18283e;position:sticky;top:0;background:#07101dea;backdrop-filter:blur(14px);z-index:10}
-.logo{font-weight:900;letter-spacing:.8px}.logo span,.accent{color:#5de2bd}
-.navlinks{display:flex;gap:25px;color:#a9b9d1;font-size:14px}.navlinks a:hover{color:#fff}
-.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:11px;font-weight:800;border:1px solid #2b3b54;transition:.2s}
-.btn.primary{background:#5de2bd;color:#061018;border-color:#5de2bd}.btn.secondary{background:#111d30}
-.btn:hover{transform:translateY(-1px)}
-.hero{padding:95px 0 75px;display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}
-.eyebrow{color:#5de2bd;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:900}
-h1{font-size:clamp(42px,6vw,72px);line-height:1.02;margin:14px 0 22px;letter-spacing:-2.5px}
-h2{font-size:38px;line-height:1.1;margin:0 0 14px;letter-spacing:-1px}
-h3{margin:0 0 8px}.hero p{font-size:18px;color:#aab9cf;max-width:650px}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.hero-card{background:linear-gradient(145deg,#111f33,#0c1727);border:1px solid #263850;border-radius:24px;padding:26px;box-shadow:0 25px 80px #0006}
-.signal{display:flex;justify-content:space-between;padding:16px 0;border-bottom:1px solid #233249}.signal:last-child{border:0}
-.signal strong{font-size:20px}.signal small{color:#8ea1bc}
-section{padding:85px 0}.section-head{max-width:720px;margin-bottom:32px}.section-head p{color:#9eafc8}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:#0d1829;border:1px solid #203149;border-radius:18px;padding:24px}
-.icon{width:42px;height:42px;border-radius:12px;background:#12283a;color:#5de2bd;display:grid;place-items:center;font-weight:900;margin-bottom:18px}
-.card p{color:#9eafc8}.tag{display:inline-block;font-size:11px;color:#5de2bd;background:#0d2a2a;border:1px solid #1e5550;padding:5px 8px;border-radius:999px;margin-bottom:12px}
-.demo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.demo{overflow:hidden;background:#0d1829;border:1px solid #263850;border-radius:18px}
-.demo-top{height:150px;padding:20px;background:linear-gradient(135deg,#10263a,#0b1524);position:relative}
-.demo-number{font-size:48px;font-weight:900;color:#5de2bd22;position:absolute;right:18px;top:6px}
-.demo-body{padding:22px}.demo-body p{color:#9eafc8}
-.demo-link{color:#5de2bd;font-weight:800}
-.workflow{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-.flow{display:grid;gap:12px}.flow-row{display:flex;gap:13px;padding:15px;background:#0d1829;border:1px solid #203149;border-radius:13px}
-.flow-n{width:30px;height:30px;border-radius:50%;background:#5de2bd;color:#061018;font-weight:900;display:grid;place-items:center;flex:none}
-.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.price{background:#0d1829;border:1px solid #263850;border-radius:18px;padding:26px}
-.price.featured{border-color:#5de2bd;box-shadow:0 0 0 1px #5de2bd22}
-.price h3{font-size:22px}.price .amount{font-size:36px;font-weight:900;margin:12px 0}
-.price ul{padding-left:19px;color:#a5b4ca}.price li{margin:8px 0}
-.contact{background:linear-gradient(135deg,#10283a,#0d1929);border:1px solid #294159;border-radius:25px;padding:45px;display:grid;grid-template-columns:1fr .8fr;gap:35px;align-items:center}
-.contact p{color:#aab9cf}
-.form{display:grid;gap:10px}.form input,.form textarea{width:100%;padding:13px;border:1px solid #2a3b55;background:#08111e;color:#fff;border-radius:10px;font:inherit}.form textarea{min-height:100px;resize:vertical}
-.note{font-size:12px;color:#71849f}
-footer{border-top:1px solid #18283e;padding:28px 0;color:#71849f;font-size:13px}
-@media(max-width:900px){.hero,.workflow,.contact{grid-template-columns:1fr}.cards,.demo-grid,.pricing{grid-template-columns:1fr}.navlinks{display:none}section{padding:60px 0}}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:#0b1020;color:#eef2ff}
+.container{max-width:1180px;margin:auto;padding:28px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:30px}
+.brand{font-weight:800;letter-spacing:.5px}.brand span{color:#69e6c5}
+.badge{padding:8px 12px;border:1px solid #283653;border-radius:999px;color:#9fb0cf;font-size:12px}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:stretch}
+.card{background:#11182b;border:1px solid #24304b;border-radius:20px;padding:24px;box-shadow:0 18px 50px #0003}
+h1{font-size:44px;line-height:1.05;margin:0 0 14px}h2{margin:0 0 14px}p{color:#aebbd3;line-height:1.6}
+.accent{color:#69e6c5}.steps{display:grid;gap:12px;margin:22px 0}
+.step{display:flex;gap:12px;align-items:flex-start;padding:13px;border-radius:14px;background:#0d1425}
+.num{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#69e6c5;color:#071019;font-weight:800;flex:none}
+.controls{display:grid;gap:12px}.controls label{font-size:12px;color:#8fa0be}
+select,input{width:100%;padding:12px 13px;border-radius:10px;border:1px solid #2b3855;background:#0a1020;color:#fff}
+button{border:0;border-radius:10px;padding:12px 16px;background:#69e6c5;color:#071019;font-weight:800;cursor:pointer}
+button.secondary{background:#202c45;color:#dbe7ff}
+.result{margin-top:18px;padding:18px;border-radius:14px;background:#0a1020;border:1px solid #263552}
+.status{display:inline-block;padding:6px 9px;border-radius:999px;background:#172b2c;color:#69e6c5;font-size:12px;font-weight:800}
+.timeline{display:grid;gap:10px;margin-top:14px}.event{padding:12px;border-left:3px solid #69e6c5;background:#0d1425;border-radius:0 10px 10px 0}
+.event b{display:block;margin-bottom:4px}.muted{color:#8292ae;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.kpi{font-size:28px;font-weight:800}.small{font-size:12px;color:#8fa0be}
+table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:11px;border-bottom:1px solid #24304b;font-size:13px}th{color:#8fa0be}
+@media(max-width:850px){.hero,.grid{grid-template-columns:1fr}h1{font-size:36px}}
 </style>
 </head>
 <body>
-<nav>
-<div class="wrap" style="display:flex;justify-content:space-between;align-items:center;width:100%">
-<a class="logo" href="#top">APEX <span>AI</span> SOLUTIONS</a>
-<div class="navlinks"><a href="#services">Services</a><a href="#demos">Demos</a><a href="#workflow">How It Works</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></div>
-</div>
-</nav>
+<div class="container">
+<div class="top"><div class="brand">APEX <span>AI</span> SOLUTIONS</div><div class="badge">Demo 3 · Real Estate Automation</div></div>
 
-<main id="top">
-<section class="hero wrap">
-<div>
-<div class="eyebrow">AI Automation for Real Estate</div>
-<h1>Turn property enquiries into <span class="accent">real opportunities.</span></h1>
-<p>Apex AI Solutions builds practical AI systems that capture leads, qualify prospects, answer property questions and automatically follow up — so agents spend more time closing and less time chasing.</p>
-<div class="actions"><a class="btn primary" href="#demos">View Live Demos</a><a class="btn secondary" href="#contact">Request a System</a></div>
-</div>
-<div class="hero-card">
-<div class="signal"><div><small>01 · Capture</small><br><strong>Every enquiry recorded</strong></div><span>→</span></div>
-<div class="signal"><div><small>02 · Qualify</small><br><strong>AI identifies intent</strong></div><span>→</span></div>
-<div class="signal"><div><small>03 · Follow up</small><br><strong>Automated responses</strong></div><span>→</span></div>
-<div class="signal"><div><small>04 · Handoff</small><br><strong>Agent gets the lead</strong></div><span>✓</span></div>
+<div class="hero">
+<section class="card">
+<h1>Never let a missed property lead <span class="accent">go cold.</span></h1>
+<p>This interactive demo simulates an automated follow-up engine for real-estate enquiries that arrive when an agent is unavailable or does not respond immediately.</p>
+<div class="steps">
+<div class="step"><div class="num">1</div><div><b>Lead detected</b><div class="muted">Website, missed call, form or enquiry enters the workflow.</div></div></div>
+<div class="step"><div class="num">2</div><div><b>Instant acknowledgement</b><div class="muted">The prospect receives a professional response while the agent is notified.</div></div></div>
+<div class="step"><div class="num">3</div><div><b>Timed follow-up</b><div class="muted">Follow-ups continue until the lead replies, books, or is marked closed.</div></div></div>
+<div class="step"><div class="num">4</div><div><b>Human handoff</b><div class="muted">The agent gets a concise summary and the next recommended action.</div></div></div>
 </div>
 </section>
 
-<section id="services">
-<div class="wrap">
-<div class="section-head"><div class="eyebrow">What we build</div><h2>AI systems designed around your sales process.</h2><p>From first enquiry to booked viewing, Apex AI connects the pieces that are usually handled manually.</p></div>
-<div class="cards">
-<div class="card"><div class="icon">01</div><h3>AI Lead Qualification</h3><p>Capture buyer and rental requirements, score lead priority and produce an actionable agent summary.</p><span class="tag">Lead Generation</span></div>
-<div class="card"><div class="icon">02</div><h3>Property AI Chatbots</h3><p>Give website visitors instant answers, property search assistance and a simple route to human help.</p><span class="tag">Website Automation</span></div>
-<div class="card"><div class="icon">03</div><h3>Automated Follow-Up</h3><p>Respond instantly to missed enquiries and continue low-pressure follow-ups until the lead engages.</p><span class="tag">CRM Automation</span></div>
+<section class="card">
+<h2>Run the automation</h2>
+<p class="muted">Choose a scenario and simulate the workflow.</p>
+<div class="controls">
+<label>Lead scenario</label>
+<select id="scenario">
+<option value="hot">Hot buyer — missed enquiry</option>
+<option value="warm">Warm buyer — no response</option>
+<option value="rental">Rental enquiry — missed call</option>
+<option value="viewing">Viewing request — agent unavailable</option>
+</select>
+<label>Current lead status</label>
+<select id="status">
+<option value="new">New / no reply</option>
+<option value="replied">Lead replied</option>
+<option value="booked">Viewing booked</option>
+<option value="closed">Closed / do not follow up</option>
+</select>
+<button onclick="runDemo()">Run Follow-Up Simulation</button>
+<button class="secondary" onclick="resetDemo()">Reset</button>
 </div>
-</div>
-</section>
-
-<section id="demos">
-<div class="wrap">
-<div class="section-head"><div class="eyebrow">Interactive portfolio</div><h2>See the systems in action.</h2><p>These are fictional demonstration environments built to show the type of automation Apex AI can deliver.</p></div>
-<div class="demo-grid">
-<div class="demo"><div class="demo-top"><span class="tag">DEMO 01</span><div class="demo-number">01</div><h3>AI Real Estate Lead Qualifier</h3></div><div class="demo-body"><p>Collects property requirements, scores lead readiness and recommends the next agent action.</p><a class="demo-link" href="demo1/index.html">Open Demo →</a></div></div>
-<div class="demo"><div class="demo-top"><span class="tag">DEMO 02</span><div class="demo-number">02</div><h3>AI Property Website Chatbot</h3></div><div class="demo-body"><p>Interactive property assistant that answers questions, filters listings and captures viewing requests.</p><a class="demo-link" href="demo2/index.html">Open Demo →</a></div></div>
-<div class="demo"><div class="demo-top"><span class="tag">DEMO 03</span><div class="demo-number">03</div><h3>Missed Lead Follow-Up</h3></div><div class="demo-body"><p>Simulates instant acknowledgement, timed follow-ups, agent alerts and automatic stop conditions.</p><a class="demo-link" href="demo3/index.html">Open Demo →</a></div></div>
-</div>
-</div>
-</section>
-
-<section id="workflow">
-<div class="wrap">
-<div class="workflow">
-<div><div class="eyebrow">The automation engine</div><h2>One connected lead journey.</h2><p style="color:#9eafc8">Apex AI can connect your website, forms, AI layer, spreadsheet or CRM and communication channels into one operational workflow.</p></div>
-<div class="flow">
-<div class="flow-row"><div class="flow-n">1</div><div><b>Lead enters</b><br><span class="note">Website form, chatbot, campaign or enquiry</span></div></div>
-<div class="flow-row"><div class="flow-n">2</div><div><b>AI processes</b><br><span class="note">Intent, requirements and concise lead summary</span></div></div>
-<div class="flow-row"><div class="flow-n">3</div><div><b>CRM is updated</b><br><span class="note">Google Sheets, CRM or database</span></div></div>
-<div class="flow-row"><div class="flow-n">4</div><div><b>Agent is alerted</b><br><span class="note">Priority and recommended next action</span></div></div>
-<div class="flow-row"><div class="flow-n">5</div><div><b>Follow-up runs</b><br><span class="note">Automated sequence with reply/booking stop rules</span></div></div>
-</div>
-</div>
+<div id="result" class="result">
+<span class="status">READY</span>
+<p>Run the simulation to see exactly what the automation sends and when it stops.</p>
 </div>
 </section>
+</div>
 
-<section id="pricing">
-<div class="wrap">
-<div class="section-head"><div class="eyebrow">Starting packages</div><h2>Simple entry points. Custom systems when you need them.</h2><p>Indicative portfolio pricing. Final pricing depends on integrations, channels and workflow complexity.</p></div>
-<div class="pricing">
-<div class="price"><span class="tag">STARTER</span><h3>Lead Capture</h3><div class="amount">$49</div><ul><li>Lead form</li><li>Google Sheets/CRM structure</li><li>Agent notification</li><li>Basic automated response</li></ul><a class="btn secondary" href="#contact">Get Started</a></div>
-<div class="price featured"><span class="tag">POPULAR</span><h3>AI Lead System</h3><div class="amount">$149</div><ul><li>AI lead qualification</li><li>Lead scoring and summary</li><li>Automated follow-up</li><li>Stop conditions</li><li>CRM workflow</li></ul><a class="btn primary" href="#contact">Request System</a></div>
-<div class="price"><span class="tag">ADVANCED</span><h3>Full Automation</h3><div class="amount">$299+</div><ul><li>AI chatbot</li><li>CRM integration</li><li>Appointment workflow</li><li>Multi-step automation</li><li>Custom routing</li></ul><a class="btn secondary" href="#contact">Discuss Project</a></div>
+<div class="grid">
+<div class="card"><div class="kpi">15 min</div><div class="small">First follow-up window</div><p>Immediate acknowledgement plus agent alert.</p></div>
+<div class="card"><div class="kpi">24 hr</div><div class="small">Second touch</div><p>Helpful, low-pressure reminder with a clear next step.</p></div>
+<div class="card"><div class="kpi">3 days</div><div class="small">Final nurture touch</div><p>Last automated follow-up before the lead enters nurture.</p></div>
 </div>
-</div>
+
+<section class="card" style="margin-top:24px">
+<h2>Automation control rules</h2>
+<table>
+<tr><th>Event</th><th>Automation action</th><th>Stop sequence?</th></tr>
+<tr><td>New lead</td><td>Save lead + notify agent + acknowledgement</td><td>No</td></tr>
+<tr><td>Lead replies</td><td>Notify agent + mark Engaged</td><td>Yes</td></tr>
+<tr><td>Viewing booked</td><td>Mark Booked + confirmation workflow</td><td>Yes</td></tr>
+<tr><td>Agent closes lead</td><td>Mark Closed</td><td>Yes</td></tr>
+<tr><td>No response</td><td>Continue timed follow-up</td><td>No</td></tr>
+<tr><td>Final touch reached</td><td>Move to Nurture / review queue</td><td>Yes</td></tr>
+</table>
 </section>
 
-<section id="contact">
-<div class="wrap">
-<div class="contact">
-<div><div class="eyebrow">Let's build it</div><h2>Ready to automate your lead process?</h2><p>Tell us what happens after a new property enquiry comes in. We'll map the workflow and identify what can be automated.</p><p class="note">This portfolio is a demonstration site. The form below opens an email draft and does not transmit data to a server.</p></div>
-<form class="form" onsubmit="sendEmail(event)">
-<input id="name" required placeholder="Your name">
-<input id="company" placeholder="Agency / company">
-<input id="email" type="email" required placeholder="Email address">
-<textarea id="message" required placeholder="What would you like to automate?"></textarea>
-<button class="btn primary" type="submit">Start a Conversation</button>
-</form>
+<p class="muted" style="text-align:center;margin:30px 0">Apex AI Solutions · Fictional demo environment · No real messages are sent</p>
 </div>
-</div>
-</section>
-</main>
-
-<footer><div class="wrap" style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap"><span>© 2026 Apex AI Solutions</span><span>AI Automation · Lead Generation · Real Estate</span></div></footer>
 
 <script>
-function sendEmail(e){
- e.preventDefault();
- const n=document.getElementById('name').value,c=document.getElementById('company').value,em=document.getElementById('email').value,m=document.getElementById('message').value;
- const subject=encodeURIComponent('Apex AI Solutions — Automation Enquiry');
- const body=encodeURIComponent(`Name: ${n}\nCompany: ${c}\nEmail: ${em}\n\nProject:\n${m}`);
- window.location.href=`mailto:?subject=${subject}&body=${body}`;
+const data={
+hot:{name:"Daniel",area:"Fourways",budget:"R2.0m–R2.8m",property:"3-bedroom house",timeline:"0–3 months"},
+warm:{name:"Sarah",area:"Midrand",budget:"R1.4m–R1.9m",property:"2-bedroom townhouse",timeline:"3–6 months"},
+rental:{name:"Thabo",area:"Sandton",budget:"R18,000/month",property:"2-bedroom apartment",timeline:"0–3 months"},
+viewing:{name:"Ayesha",area:"Bryanston",budget:"R3.5m–R5m",property:"4-bedroom home",timeline:"0–3 months"}
+};
+function runDemo(){
+ const sc=document.getElementById('scenario').value, st=document.getElementById('status').value, d=data[sc];
+ let events=[];
+ events.push(["T+0 min","Lead captured",`New ${d.property} enquiry for ${d.area}. Lead details saved to CRM.`]);
+ events.push(["T+0 min","Agent alert",`Notify agent: ${d.name} is looking for ${d.property} in ${d.area}, budget ${d.budget}, timeline ${d.timeline}.`]);
+ if(st==="replied"||st==="booked"||st==="closed"){
+   const label=st==="replied"?"Lead replied":"Lead status changed to "+st;
+   events.push(["T+2 min","STOP AUTOMATION",`${label}. No further automated follow-ups are sent.`]);
+ } else {
+   events.push(["T+0 min","Acknowledgement",`Hi ${d.name}, thanks for your property enquiry. We received your requirements and an agent will follow up shortly.`]);
+   events.push(["T+15 min","Follow-up #1",`Hi ${d.name}, just checking that you received our message. We can help with suitable ${d.property.toLowerCase()} options in ${d.area}.`]);
+   events.push(["T+24 hr","Follow-up #2",`Hi ${d.name}, I wanted to follow up on your property search. If you're still looking, reply here and we can help with the next step.`]);
+   events.push(["T+3 days","Final follow-up",`Hi ${d.name}, we'll leave you to it for now. If you're still searching for a ${d.property.toLowerCase()} in ${d.area}, you're welcome to message us anytime.`]);
+   events.push(["T+3 days","Nurture",`No response detected. Move lead to Nurture / agent review queue.`]);
+ }
+ document.getElementById('result').innerHTML='<span class="status">SIMULATION COMPLETE</span><div class="timeline">'+events.map(e=>`<div class="event"><b>${e[0]} · ${e[1]}</b><div>${e[2]}</div></div>`).join('')+'</div>';
+}
+function resetDemo(){
+ document.getElementById('result').innerHTML='<span class="status">READY</span><p>Run the simulation to see exactly what the automation sends and when it stops.</p>';
 }
 </script>
 </body>
